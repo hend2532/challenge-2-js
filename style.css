@@ -56,20 +56,20 @@ body {
     width: 6px;
     background: red;
     height: 30%;
-    top: 10%;
+    top: 11%;
 
 }
 #second{
     width: 2px;
     background: black;
     height: 40%;
-    top: 0%;
+    top: 1%;
 
 }
 #minute{
     background:green;
     height: 35%;
-    top: 6%;
+    top: 7%;
 }
 .twelve{
     position: absolute;
