@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+body {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex: 1;
+    align-items: center;
+    color: pink;
+    /* background: black; */
+    background: linear-gradient(135deg,pink , rgb(163, 29, 105));
+}
+
+.watch{
+    width: 200px;
+    height: 200px;
+    margin: 50px auto;
+    position: relative;
+    border: 3px solid pink;
+    border-radius: 50%;
+    padding: 20px;
+}
+.face{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    transform: translateY(-3px);
+}
+.hand{
+    width: 5px;
+    height: 47%;
+    background: rgb(234, 186, 213);
+    position: absolute;
+    top: -9%;
+    right: 60%;
+    transform-origin: 86% 100%;
+    transform: rotate(0deg);
+    transition: .05s;
+    transition-timing-function: cubic-bezier(.1,2.7,.58,1);
+    border-radius: 5px;
+}
+#hour{
+    width: 7px;
+    background: rgba(163, 29, 105, 0.737);
+}
+#second{
+    width: 2px;
+
+}
+#minute{
+    background: rgb(248, 161, 175);
+}
+.twelve{
+    position: absolute;
+    left: 47%;
+    top: 2%;
+}
+.nine{
+    position: absolute;
+    left:  2%;
+    top: 50%;
+}
+
+.six{
+    position: absolute;
+    left: 50%;
+    top: 90%;
+
+}
+
+.three{
+    position: absolute;
+    right: 2%;
+    top: 50% ;
+
+}
