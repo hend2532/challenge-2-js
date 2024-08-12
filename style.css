@@ -12,9 +12,15 @@ body {
     display: flex;
     flex: 1;
     align-items: center;
-    color: pink;
+    color: white;
+    background-image: url('./فلسطين\ Palestine\ 🇵🇸.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    /* backdrop-filter: blur(1px); */
     /* background: black; */
-    background: linear-gradient(135deg,pink , rgb(163, 29, 105));
+    /* background: linear-gradient(135deg,white , green); */
 }
 
 .watch{
@@ -22,9 +28,10 @@ body {
     height: 200px;
     margin: 50px auto;
     position: relative;
-    border: 3px solid pink;
+    border: 3px solid white;
     border-radius: 50%;
     padding: 20px;
+    backdrop-filter: blur(10px);
 }
 .face{
     position: absolute;
@@ -35,7 +42,7 @@ body {
 .hand{
     width: 5px;
     height: 47%;
-    background: rgb(234, 186, 213);
+    background: white;
     position: absolute;
     top: -9%;
     right: 60%;
@@ -46,15 +53,23 @@ body {
     border-radius: 5px;
 }
 #hour{
-    width: 7px;
-    background: rgba(163, 29, 105, 0.737);
+    width: 6px;
+    background: red;
+    height: 30%;
+    top: 10%;
+
 }
 #second{
     width: 2px;
+    background: black;
+    height: 40%;
+    top: 0%;
 
 }
 #minute{
-    background: rgb(248, 161, 175);
+    background:green;
+    height: 35%;
+    top: 6%;
 }
 .twelve{
     position: absolute;
